@@ -4,6 +4,18 @@
 
 This is my first ever attempt at creating something with the [T3 Stack](https://create.t3.gg/)
 
+The goal of this repo is to build a super basic app that lets me play with all the various parts of the Stack.
+
+## Tooling
+
+- [x] [NextJS 13 (App router)](https://nextjs.org/docs)
+- [x] [ShadCN UI Components](https://ui.shadcn.com/)
+- [x] [PlanetScale - MySQL DB](https://planetscale.com/)
+- [x] [Drizzle ORM](https://orm.drizzle.team/)
+- [x] [TRPC](https://trpc.io/)
+- [x] [Zod](https://github.com/colinhacks/zod)
+- [x] [Clerk](https://clerk.com/)
+
 ## How it works
 
 Navigate over to the App. The Dashboard is protected. You can sign up or sign in with Google or Github as the OAuth provider.
@@ -22,12 +34,10 @@ etc...
 
 To-Do - Add basic architecture diagram from Excalidraw
 
-## Tooling
+## Roadmap
 
-- [x] [NextJS 13 (App router)](https://nextjs.org/docs)
-- [x] [ShadCN UI Components](https://ui.shadcn.com/)
-- [x] [PlanetScale - MySQL DB](https://planetscale.com/)
-- [x] [Drizzle ORM](https://orm.drizzle.team/)
-- [x] [TRPC](https://trpc.io/)
-- [x] [Zod](https://github.com/colinhacks/zod)
-- [x] [Clerk](https://clerk.com/)
+- [ ] If a player is already logged in, redirect them to the dashboard
+- [ ] Remove all the boilerplate code from the T3 Stack
+- [ ] Integrate with OpenAI API to generate names based on a custom prompt
+- [ ] Create basic Data Model
+- [ ] Persist names in DB
