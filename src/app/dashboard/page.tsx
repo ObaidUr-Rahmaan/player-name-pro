@@ -2,9 +2,7 @@ import React from "react";
 import { UserButton } from "@clerk/nextjs";
 import { Button } from "@/components/ui/button";
 
-type Props = {};
-
-const Dashboard = (props: Props) => {
+const Dashboard = () => {
   return (
     <div>
       <div className="flex justify-around p-6">
