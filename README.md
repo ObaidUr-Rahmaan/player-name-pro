@@ -4,6 +4,8 @@
 
 This is my first ever attempt at creating something with the [T3 Stack](https://create.t3.gg/)
 
+The goal of this repo is to build a super basic app that lets me play with all the various parts of the Stack.
+
 ## Tooling
 
 - [x] [NextJS 13 (App router)](https://nextjs.org/docs)
@@ -34,6 +36,7 @@ To-Do - Add basic architecture diagram from Excalidraw
 
 ## Roadmap
 
+- [ ] If a player is already logged in, redirect them to the dashboard
 - [ ] Remove all the boilerplate code from the T3 Stack
 - [ ] Integrate with OpenAI API to generate names based on a custom prompt
 - [ ] Create basic Data Model
