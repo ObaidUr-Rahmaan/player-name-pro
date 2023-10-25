@@ -1,6 +1,6 @@
 # Player Name Generator - AI-Powered
 
-## Motivation
+## Motivation
 
 This is my first ever attempt at creating something with the [T3 Stack](https://create.t3.gg/)
 
