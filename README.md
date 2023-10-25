@@ -1,5 +1,9 @@
 # Player Name Generator - AI-Powered
 
+## Motivation
+
+This is my first ever attempt at creating something with the [T3 Stack](https://create.t3.gg/)
+
 ## Tooling
 
 - [x] [NextJS 13 (App router)](https://nextjs.org/docs)
