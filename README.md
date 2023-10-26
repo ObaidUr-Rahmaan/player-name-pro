@@ -41,3 +41,4 @@ To-Do - Add basic architecture diagram from Excalidraw
 - [ ] Integrate with OpenAI API to generate names based on a custom prompt
 - [ ] Create basic Data Model
 - [ ] Persist names in DB
+- [ ] Integrate with Builer.io and improve UI
