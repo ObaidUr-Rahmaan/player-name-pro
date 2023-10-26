@@ -36,7 +36,7 @@ To-Do - Add basic architecture diagram from Excalidraw
 
 ## Roadmap
 
-- [ ] If a player is already logged in, redirect them to the dashboard
+- [x] If a player is already logged in, redirect them to the dashboard
 - [ ] Remove all the boilerplate code from the T3 Stack
 - [ ] Integrate with OpenAI API to generate names based on a custom prompt
 - [ ] Create basic Data Model
