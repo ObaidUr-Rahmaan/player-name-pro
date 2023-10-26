@@ -13,7 +13,7 @@ const inter = Inter({
 
 export const metadata = {
   title: "Player Name Pro",
-  icons: [{ rel: "icon", url: "/favicon.ico" }],
+  icons: [{ rel: "icon", url: "/ninja.ico" }],
 };
 
 export default function RootLayout({
