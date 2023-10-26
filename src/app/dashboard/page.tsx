@@ -13,7 +13,7 @@ const Dashboard = () => {
       {/* Show Names generated and a Click me button*/}
       <div className="flex flex-col items-center space-y-40">
         <div className="mt-32">Generated Names</div>
-        <Button className="rounded-2xl bg-orange-700 text-white hover:bg-orange-900">
+        <Button className="rounded-2xl bg-orange-700 p-2 px-4 text-white hover:bg-orange-900">
           Generate Unique Player Name
         </Button>
       </div>

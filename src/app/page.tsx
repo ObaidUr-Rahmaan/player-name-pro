@@ -24,10 +24,10 @@ export default function Home() {
           </span>
         </h1>
         <div className="flex justify-center space-x-6 p-6">
-          <Button className="rounded-2xl bg-slate-900 text-white hover:bg-slate-700">
+          <Button className="rounded-xl bg-slate-900 p-2 px-4 text-white hover:bg-slate-700">
             <SignInButton />
           </Button>
-          <Button className="rounded-2xl bg-slate-900 text-white hover:bg-slate-700">
+          <Button className="rounded-xl bg-slate-900 p-2 px-4 text-white hover:bg-slate-700">
             <SignUpButton />
           </Button>
           {/* <Button className="rounded-2xl bg-slate-900 text-white hover:bg-slate-700">
