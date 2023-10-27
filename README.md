@@ -46,7 +46,7 @@ https://excalidraw.com/#json=2mGPSeZ2Q-HM6izir8ohX,LM7fTCKZPqmvNjEg35MWrg
 
 - [x] If a player is already logged in, redirect them to the dashboard
 - [x] Remove all the boilerplate code from the T3 Stack
-- [ ] Integrate with OpenAI API to generate names based on a custom prompt
+- [x] Integrate with OpenAI API to generate names based on a custom prompt
 - [ ] Create basic Data Model
 - [ ] Persist names in DB
 - [ ] Integrate with Builer.io and improve UI
