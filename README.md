@@ -32,7 +32,13 @@ etc...
 
 ## Architecture
 
-To-Do - Add basic architecture diagram from Excalidraw
+### ER Diagram
+
+<img width="792" alt="image" src="https://github.com/ObaidUr-Rahmaan/player-name-pro/assets/33055080/5721a3ab-e431-4692-a95e-9f7c74ed357a">
+
+### End-to-End flow
+
+https://excalidraw.com/#json=2mGPSeZ2Q-HM6izir8ohX,LM7fTCKZPqmvNjEg35MWrg
 
 ## Roadmap
 
