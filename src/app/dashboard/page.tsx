@@ -42,7 +42,8 @@ const Dashboard = () => {
       );
 
       // Extract the name from the result
-      const extractedName = extractName(result);
+      const extractedName =
+        typeof result === "string" ? extractName(result) : null;
 
       if (extractedName && extractedName !== previousName) {
         newName = extractedName;
