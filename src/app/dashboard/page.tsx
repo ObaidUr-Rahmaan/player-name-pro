@@ -12,7 +12,7 @@ const Dashboard = () => {
   const [generatedName, setGeneratedName] = React.useState<string>("");
   const [isLoading, setIsLoading] = React.useState<boolean>(false);
 
-  const { complete, completion } = useCompletion({
+  const { complete } = useCompletion({
     api: "/api/completion",
   });
 
