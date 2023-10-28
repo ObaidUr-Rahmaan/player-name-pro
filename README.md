@@ -4,7 +4,7 @@
 
 This is my first ever attempt at creating something with the [T3 Stack](https://create.t3.gg/)
 
-The goal of this repo is to build a super basic app that lets me play with all the various parts of the Stack, 
+The goal of this repo is to build a super basic app that lets me play with all the various parts of the Stack,
 as well as teaching my mentees how companies build out a product (end-to-end). From ideation to production
 
 ## Tooling
@@ -16,7 +16,7 @@ as well as teaching my mentees how companies build out a product (end-to-end). F
 - [x] [TRPC](https://trpc.io/)
 - [x] [Zod](https://github.com/colinhacks/zod)
 - [x] [Clerk](https://clerk.com/)
-- [ ] [Axiom - Logging and Monitoring](https://axiom.co/)
+- [x] [Axiom - Logging and Monitoring](https://axiom.co/)
 
 ## How it works
 
