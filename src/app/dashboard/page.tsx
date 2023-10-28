@@ -1,8 +1,16 @@
 import React from "react";
 import { UserButton } from "@clerk/nextjs";
 import { Button } from "@/components/ui/button";
+import { useLogger } from "next-axiom";
+import { useUser } from "@clerk/nextjs";
 
 const Dashboard = () => {
+  const logger = useLogger();
+  const user = useUser();
+
+  if (user.isSignedIn) {
+    logger.info("User is signed in", { user });
+  }
   return (
     <div>
       <div className="flex justify-around p-6">
