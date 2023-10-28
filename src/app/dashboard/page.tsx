@@ -38,11 +38,14 @@ const Dashboard = () => {
 
     while (Date.now() - startTime < maxDuration && !isUnique) {
       const result = await complete(
-        "Generate a distinctive, memorable two-word player name that hasn't been commonly used. Ensure both words have strong, positive connotations and blend well when concatenated together.",
+        "Provide a two-word player name that hasn't been commonly used. Both words should have strong, positive connotations and be capitalized.",
       );
 
-      if (typeof result === "string" && result !== previousName) {
-        newName = result;
+      // Extract the name from the result
+      const extractedName = extractName(result);
+
+      if (extractedName && extractedName !== previousName) {
+        newName = extractedName;
         isUnique = true;
       }
     }
@@ -53,6 +56,11 @@ const Dashboard = () => {
     } else {
       logger.warn("Failed to generate a unique name within the time limit.");
     }
+  };
+
+  const extractName = (sentence: string): string | null => {
+    const matches = sentence.match(/[A-Z][a-z]+[A-Z][a-z]+/);
+    return matches ? matches[0] : null;
   };
 
   return (
