@@ -37,12 +37,12 @@ const Dashboard = () => {
     let newName = "";
 
     while (Date.now() - startTime < maxDuration && !isUnique) {
-      await complete(
+      const result = await complete(
         "Generate a distinctive, memorable two-word player name that hasn't been commonly used. Ensure both words have strong, positive connotations and blend well when concatenated together.",
       );
 
-      if (completion !== previousName) {
-        newName = completion;
+      if (typeof result === "string" && result !== previousName) {
+        newName = result;
         isUnique = true;
       }
     }
