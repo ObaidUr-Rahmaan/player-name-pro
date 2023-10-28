@@ -55,12 +55,6 @@ const Dashboard = () => {
     }
   };
 
-  React.useEffect(() => {
-    if (completion) {
-      setGeneratedName(completion);
-    }
-  }, [completion]);
-
   return (
     <div className="flex h-screen flex-col">
       <div className="flex justify-around p-6">
