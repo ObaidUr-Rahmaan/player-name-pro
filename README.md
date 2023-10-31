@@ -48,5 +48,6 @@ https://excalidraw.com/#json=2mGPSeZ2Q-HM6izir8ohX,LM7fTCKZPqmvNjEg35MWrg
 - [x] Remove all the boilerplate code from the T3 Stack
 - [x] Integrate with OpenAI API to generate names based on a custom prompt
 - [ ] Create basic Data Model
-- [ ] Persist names in DB
-- [ ] Integrate with Builer.io and improve UI
+- [ ] Persist every name generated in DB, per user. 
+- [ ] Integrate with Builder.io and improve UI 'look'
+- [ ] Use Anime.js to improve UI 'feel'
